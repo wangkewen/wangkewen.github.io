@@ -1,0 +1,19 @@
+body{
+	margin:0;
+	background-color:#b2b2b2;
+}
+img{
+	border:0;
+}
+#content{
+	width:1000px;
+	min-height:650px;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#leftcontent{
+	float:left;
+}
