@@ -7,11 +7,35 @@
 </head>
 <body>
 <div id="content">
-<div id="heder"> HEADER </div>
-<div id="leftcontent"> left </div>
-<div id="rightcontent"> right </div>
-<div id="footer"> FOOTER </div>
-<img src="MapReduce.png">
+<div id="header">
+<span id="course"> CSC8530 </span>
+<span id="sign">Kewen Wang</span>
+</div>
+<div id="leftcontent"> 
+<a href="index.html"><img id="logo" src="MapReduce.png" alt="LOGO"></a>
+<div id="taskslist">Tasks List</div>
+<div id="nav">
+<ul id="list">
+<li class="task"><a class="tasklink" href="index.html">Topic Selection</a></li>
+<li class="task"><a class="tasklink" href="paperlist.html">Bibliography of literature found</a></li>
+<li class="task"><a class="tasklink" href="comment.html">Annotated Bibliography of the literature found</a></li>
+<li class="task"><a class="tasklink" href="result.html">Detailed Annotated Bibliography and Classification of the Results</a></li>
+<li class="task"><a class="tasklink" href="survey.html">Survey Paper</a></li>
+</ul>
+</div>
+<div id="contact">Contact</div>
+<div id="email">kwang12@student.gsu.edu</div>
+</div>
+<div id="rightcontent">
+<div id="title">Survey Paper: MapReduce</div>
+<h1><a href="Kewen-Wang_Term Project Proposal.pdf">Topic: MapReduce Architecture and Programming</a></h1>
+<p>MapReudce is a distributed computing programming framework, which is designed to solve data analysis problems. As the open source implementation of MapReduce, Hadoop is widely used in practice for its high efficiency in data processing and low requirement in cluster envrionment. 
+To implement user application in MapReduce, user need write Map and Reduce programs for specified task. But it is complicated to write programs in MapReduce for its distributed environment feature. Recently, some tools like Pig and Hive have provided methods to automatically translate SQL languages into MapReduce programs. However, these auto-generated MapReduce programs are inefficient for some tasks compared to optimized MapReduce programs by experienced coders. Moreover, it is not so easy to implement complex algorithm like graph algorithm in MapReduce. Thus designing efficient algorithms and programs in MapReduce will be a great challenge.</p> 
+<p>In this survey, I will analyze the underlying architecture of MapReduce framework, and how this programming model could improve data processing capability. Especially, I may focus on the parallel computing architecture of MapReduce framework. Besides, I will find the papers about how to translate SQL language to MapReduce program automatically or manually. 
+And I will search for some disciplines or experience of designing efficient programs in MapReduce for certain kind of algorithms. Moreover, based on these methods, I will summarize some guidelines for designing efficient programs in MapReduce.</p>
+</div>
+<div id="footer"></div>
+
 </div>
 </body>
 </html>
