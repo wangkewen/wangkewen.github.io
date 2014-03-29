@@ -27,7 +27,81 @@
 <div id="email">kwang12@student.gsu.edu</div>
 </div>
 <div id="rightcontent">
-<div id="comment">comment</div>
+<h1>Brief Comment</h1>
+<ul id="paperlist">
+<li class="paper"><a href="http://idning-ebook.googlecode.com/svn/trunk/google/%23mapreduce-osdi04.pdf">MapReduce: Simplified data processing on large clusters. <i>(2004)</i></a>
+<div class="comments">This paper introduces MapReduce programming model from Google Inc. In this paper, the authors provide the execution of MapReduce job and tasks assignment. And it describes some main functions: partitioning, ordering, combiner and so on. Moreover, this paper lists interesting programs that can be implemented by MapReduce computation, and uses grep and sort programs to measure the performance of MapReduce.</div></li>
+<li class="paper"><a href="http://belkcollegeofbusiness.uncc.edu/JaredHansen/Teaching/Teaching%20Helps/DeanGhemawatACMJan2010.pdf">MapReduce: A Flexible Data Processing Tool. <i>(2010)</i></a>
+<div class="comments">This paper compares MapRedue with parallel databases from many aspects: heterogeneous systems environment, data indices, program functions, structured data and schemas, fault tolerance and performance. In this paper, the authors claim that MapReduce has significant advantages over parallel databases. This paper mainly consists of brief ideas and opinions, and seems to be a summary.</div></li>
+<li class="paper"><a href="https://www.cs.duke.edu/~hero/files/dataeng13-whatifengine.pdf">A What-if Engine for Cost-based MapReduce Optimization. <i>(2013)</i></a>
+<div class="comments">This paper describes What-if Engine, a critical component of Starfish, a tool for optimizing MapReduce by tuning configurations of MapReduce job. Actually, What-if Engine is used to predict MapReduce job execution time (cost) with chosen MapReduce parameter configuration. In this paper, What-if Engine provides an analytical model to estimate dataflow and cost for MapReduce job.</div></li>
+<li class="paper"><a href="http://arxiv.org/pdf/1302.2966.pdf">The Family of MapReduce and Large Scale Data Processing Systems. <i>(2013)</i></a>
+<div class="comments">This paper describes the framework of MapReduce, and provides some techniques that can improve the performance and capabilities of MapReduce from different perspectives. In this paper, it covers various large scale data processing systems based on idea of MapReduce, similar to MapReduce or implemented on the top of MapReduce framework.</div></li>
+<li class="paper"><a href="http://www.cs.duke.edu/~hero/files/vldb11-job-optimization.pdf">Profiling, what-if analysis, and cost-based optimization of MapReduce programs. <i>(2011)</i></a>
+<div class="comments">This paper introduces a method to optimize MapReduce program by tunning MapReduce parameter configurations. In this paper, authors describes three main components of this method: profiler (used to collect statistical information related to MapReduce job cost), what-if engine (to predict the cost of a virtual MapReduce job with different configuration) and cost-based optimizer (to apply search algorithm to find the optimal configuration setting).</div></li>
+<li class="paper"><a href="http://www.datascienceassn.org/sites/default/files/Minimal%20MapReduce%20Algorithms.pdf">Minimal MapReduce Algorithms. <i>(2013)</i></a>
+<div class="comments">This paper presents the conception of minimal MapReduce algorithm, which could provide best parallelization. This idea is generated from the attempt to justify why TeraSort (a MapRedue program for sorting) achieves excellent performance. In this paper, TeraSort is modified to fit the rules provided by the authors to be a minimal algorithm, and the authors describe how this minimal algorithm could be applied to solve some database problems.</div></li>
+<li class="paper"><a href="http://islab.kaist.ac.kr/chungcw/InterConfPapers/km0805-ha-myung.pdf">An Efficient MapReduce Algorithm for Counting Triangles in a Very Large Graph. <i>(2013)</i></a>
+<div class="comments">This paper provides an efficient MapReduce algorithm to count the triangles in a large graph by solving the problem of redundant computation of triangles in previous algorithms. This new algorithm adds the step of triangle type classification to avoid this drawback. Moreover, this paper uses real-world dataset to demonstrate this new algorithm’s performance in large and dense graph.</div></li>
+<li class="paper"><a href="http://www.chinacloud.cn/upload/2013-10/13100807567165.pdf">JackHare: a framework for SQL to NoSQL translation using MapReduce. <i>(2013)</i></a>
+<div class="comments">This paper proposes a framework JackHare to translate SQL to MapReduce phases for processing the unstructured data in HBase. In this paper, authors analyze the methods about how to translate basic or extended SQL statements and the combination of SQL clauses to an execution plan of MapReduce phases. Besides, this paper explains the data model in HBase, a NoSQL database.</div></li>
+<li class="paper"><a href="http://conferences.sigcomm.org/sigcomm/2013/papers/hotplanet/p27.pdf">Efficient social network data query processing on MapReduce. <i>(2013)</i></a>
+<div class="comments">This paper presents an efficient method to translate SPARQL (a query language for processing social network data). This method consists of two primitives: using multiple-join-with-filter to substitute SQL join and merging the selection stage’s job into the join stage’s job. And the experiment on social network benchmarks demonstrates this method’s 2x speedup compared to the traditional method.</div></li>
+<li class="paper"><a href="http://arxiv.org/ftp/arxiv/papers/1104/1104.3217.pdf">Automatic optimization for MapReduce programs. <i>(2011)</i></a>
+<div class="comments">This paper describes a system MANIMAL to automatically optimize MapReduce programs. It is a data-aware optimization method, which does not change the MapReduce programs. This system MANIMAL consists of three components: analyzer (examines MapReduce programs and sends optimization descriptor to optimizer), optimizer (choose optimized execution plan sent to execution fabric) and execution fabric (execution the plan as MapReduce).</div></li>
+<li class="paper"><a href="http://arxiv.org/pdf/1303.3517.pdf">Iterative mapreduce for large scale machine learning. <i>(2013)</i></a>
+<div class="comments">This paper provides a method to make MapReduce to support iteration for machine learning. In this paper, authors explain an iterative MapReduce programming model for machine learning. And the paper presents an optimizer to provide theoretically optimal choices for the fan-in f and the number of machines N to be used, and evaluates the optimizer by experiments.</div></li>
+<li class="paper"><a href="http://crpit.com/confpapers/CRPITV152Hsueh.pdf">A Load-Balanced MapReduce Algorithm for Blocking-based Entity-resolution with Multiple Keys. <i>(2014)</i></a>
+<div class="comments">qqqqq</div></li>
+<li class="paper"><a href="http://static.usenix.org/events/nsdi10/tech/full_papers/condie.pdf">MapReduce Online. <i>(2010)</i></a>
+<div class="comments">hhhhhh</div></li>
+<li class="paper"><a href="http://arxiv.org/pdf/1203.5387.pdf">Finding connected components in map-reduce in logarithmic rounds. <i>(2013)</i></a>
+<div class="comments">aaaa</div></li>
+<li class="paper"><a href="http://arxiv.org/pdf/1207.0141.pdf">Efficient processing of k nearest neighbor joins using mapreduce. <i>(2012)</i></a>
+<div class="comments">sss</div></li>
+<li class="paper"><a href="http://rio.ecs.umass.edu/mnilpub/papers/hpdc2013-yin.pdf">Efficient analytics on ordered datasets using MapReduce. <i>(2013)</i></a>
+<div class="comments">ddd</div></li>
+<li class="paper"><a href="http://simplemonitoring.googlecode.com/svn-history/r235/trunk/document/paper/paper.pdf">Google’s MapReduce Programming Model — Revisited. <i>(2008)</i></a>
+<div class="comments">ttt</div></li>
+<li class="paper"><a href="http://markus-h.github.io/stratosphere/assets/papers/optimizationOfDataFlowsWithUDFs_13.pdf">Peeking into the Optimization of Data Flow Programs with MapReduce-style UDFs. <i>(2013)</i></a>
+<div class="comments">aaaa</div></li>
+<li class="paper"><a href="http://cseweb.ucsd.edu/~avattani/papers/mrgreedy.pdf">Fast Greedy Algorithms in MapReduce and Streaming. <i>(2013)</i></a>
+<div class="comments">bbb</div></li>
+<li class="paper"><a href="http://www.vldb.org/pvldb/vol6/p1230-mokbel.pdf">A Demonstration of SpatialHadoop: An Efficient MapReduce Framework for Spatial Data. <i>(2013)</i></a>
+<div class="comments">ggg</div></li>
+<li class="paper"><a href="https://ece.uwaterloo.ca/~aelgohar/Farahat_CSS_ICDM2013.pdf">Distributed Column Subset Selection on MapReduce. <i>(2013)</i></a>
+<div class="comments">xxx</div></li>
+<li class="paper"><a href="http://www.vldb.org/pvldb/vol7/p241-onizuka.pdf">Optimization for iterative queries on MapReduce. <i>(2013)</i></a>
+<div class="comments">zzz</div></li>
+<li class="paper"><a href="http://pdf.aminer.org/000/225/039/a_practical_approach_to_static_node_positioning.pdf">SQL/MapReduce: A practical approach to self-describing, polymorphic, and parallelizable user-defined functions. <i>(2009)</i></a>
+<div class="comments">ddd</div></li>
+<li class="paper"><a href="http://www.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-11-7.pdf">Ysmart: Yet another sql-to-mapreduce translator. <i>(2011)</i></a>
+<div class="comments">hhh</div></li>
+<li class="paper"><a href="http://arxiv.org/pdf/1211.6176.pdf">Shark: SQL and rich analytics at scale. <i>(2013)</i></a>
+<div class="comments">ddd</div></li>
+<li class="paper"><a href="http://vldb.org/pvldb/vol5/p2014_jensdittrich_vldb2012.pdf">Efficient Big Data Processing in Hadoop MapReduce. <i>(2012)</i></a>
+<div class="comments">yyy</div></li>
+<li class="paper"><a href="http://pasa-bigdata.nju.edu.cn/people/ronggu/pub/SHadoop_JPDC.pdf">SHadoop: Improving MapReduce performance by optimizing job execution mechanism in Hadoop clusters. <i>(2014)</i></a>
+<div class="comments">kkk</div></li>
+<li class="paper"><a href="https://lambda.uta.edu/mrql.pdf">An optimization framework for map-reduce queries. <i>(2012)</i></a>
+<div class="comments">ddd</div></li>
+<li class="paper"><a href="http://www.ics.uci.edu/~ramang/RamanGrover/Home_files/predicate_based_sampling_grover_carey.pdf">Extending map-reduce for efficient predicate-based sampling. <i>(2012)</i></a>
+<div class="comments">llll</div></li>
+<li class="paper"><a href="http://www.infosun.fim.uni-passau.de/cl/publications/docs/DAL13mapreduce.pdf">Modeling and Optimizing MapReduce Programs. <i>(2013)</i></a>
+<div class="comments">mmm</div></li>
+<li class="paper"><a href="http://ceur-ws.org/Vol-1133/paper-37.pdf">A Map-Reduce algorithm for querying linked data based on query decomposition into stars. <i>(2014)</i></a>
+<div class="comments">oooo</div></li>
+<li class="paper"><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.169.5318&rep=rep1&type=pdf">MapReduce for Data Intensive Scientific Analyses. <i>(2008)</i></a>
+<div class="comments">jjj</div></li>
+<li class="paper"><a href="http://gsl.azurewebsites.net/Portals/0/Users/dewitt/Papers/Hadoop/cacm2010.pdf">MapReduce and Parallel DBMSs: Friends or Foes? <i>(2010)</i></a>
+<div class="comments">ddd</div></li>
+<li class="paper"><a href="http://cloud.pubs.dbs.uni-leipzig.de/sites/cloud.pubs.dbs.uni-leipzig.de/files/Jiang2010TheperformanceofmapreduceAnindepthstudy.pdf">The Performance of MapReduce: An In-depth Study. <i>(2010)</i></a>
+<div class="comments">fff</div></li>
+<li class="paper"><a href="http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf">Parallel Data Processing with MapReduce: A Survey. <i>(2011)</i></a>
+<div class="comments">vvv</div></li>
+<li class="paper"><a href="http://ceur-ws.org/Vol-1133/paper-02.pdf">Binary Theta-Joins using MapReduce: Efficiency Analysis and Improvements. <i>(2014)</i></a>
+<div class="comments">ssss</div></li>
+</ul>
 </div>
 <div id="footer"></div>
 
