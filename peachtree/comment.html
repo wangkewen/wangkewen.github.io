@@ -86,15 +86,15 @@
 <li class="paper"><a href="https://lambda.uta.edu/mrql.pdf">An optimization framework for map-reduce queries. <i>(2012)</i></a>
 <div class="comments">This paper presents a novel MapReduce-like query language for map-reduce computations: MRQL (Map-Reduce Query Language). It designs and implements an effective optimization framework for Map-Reduce queries. This paper provides details about how to translate MRQL queries to efficient execution of MapReduce jobs. Besides, this paper compares MRQL with HiveQL and PigLatin that are popular MapReduce query languages.</div></li>
 <li class="paper"><a href="http://www.ics.uci.edu/~ramang/RamanGrover/Home_files/predicate_based_sampling_grover_carey.pdf">Extending map-reduce for efficient predicate-based sampling. <i>(2012)</i></a>
-<div class="comments">llll</div></li>
+<div class="comments">This paper provides a new mechanism to provide efficient predicate-based sampling using MapReduce. It treats predicate-based sampling as a SQL query. In this paper, authors introduce a concept of Input Provider into Hadoop execution model. Input Provider could realize the dynamic decision making regarding the job input, and finally achieve an incremental processing mechanism that could improve the performance of predicate-based sampling.</div></li>
 <li class="paper"><a href="http://www.infosun.fim.uni-passau.de/cl/publications/docs/DAL13mapreduce.pdf">Modeling and Optimizing MapReduce Programs. <i>(2013)</i></a>
-<div class="comments">mmm</div></li>
+<div class="comments">It is a technical report about MapReduce optimization. It represents MapReduce programming model from the aspect of functional model, and analyzes main steps of MapReduce execution: Mapper, shuffle and Reducer. Besides, it constructs a cost model to analyze the time cost of MapReduce programs. Based on the models, it provides rules for optimization and demonstrates the effectiveness.</div></li>
 <li class="paper"><a href="http://ceur-ws.org/Vol-1133/paper-02.pdf">Binary Theta-Joins using MapReduce: Efficiency Analysis and Improvements. <i>(2014)</i></a>
-<div class="comments">ssss</div></li>
+<div class="comments">This paper proposes the methods to improve the efficiency of binary theta-joins using MapReduce. It uses a join matrix (JM) to represent the workload partitioned across the reducers. This paper discusses how to improve the algorithms 1-Bucket-Theta and M-Bucket, which are the algorithms for theta-joins in MapReduce. Proposal of the paper could reduce the communication cost and lead to maximum reducer input.</div></li>
 <li class="paper"><a href="http://cloud.pubs.dbs.uni-leipzig.de/sites/cloud.pubs.dbs.uni-leipzig.de/files/Jiang2010TheperformanceofmapreduceAnindepthstudy.pdf">The Performance of MapReduce: An In-depth Study. <i>(2010)</i></a>
-<div class="comments">fff</div></li>
+<div class="comments">This paper is about the research of MapReduce performance. It discusses five factors that affect the performance of MapReduce: I/O mode of the storage system, data parsing for key/value pair record, indexing for data blocks, MapReduce programming model and runtime scheduling scheme applied in MapReduce. And the paper uses experiments to demonstrate the performance improvement by tuning these factors.</div></li>
 <li class="paper"><a href="https://www.cs.duke.edu/~shivnath/papers/socc2010.pdf">Towards automatic optimization of MapReduce programs. <i>(2010)</i></a>
-<div class="comments">oooo</div></li>
+<div class="comments">In this paper, author provides a new idea to optimize the MapReduce job performance by tuning MapReduce parameters. This paper analyzes some MapReduce parameters’ impact on the MapReduce job and the interactions among parameters. Moreover, author proposes some potential approaches of tuning parameter configuration such as database query-optimizer-style approach and dynamic profiling.</div></li>
 </ul>
 </div>
 <div id="footer"></div>
