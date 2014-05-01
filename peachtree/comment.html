@@ -30,79 +30,79 @@
 <h1>Brief Comment</h1>
 <ul id="paperlist">
 <li class="paper"><a href="http://idning-ebook.googlecode.com/svn/trunk/google/%23mapreduce-osdi04.pdf">MapReduce: Simplified data processing on large clusters. <i>(2004)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper is the first paper to introduce MapReduce framework to public. MapReduce programming model is presented from Google Inc. MapReduce job takes key/value pairs as input data and generates key/value pairs as output files. This computing model has two main phases: Map and Reduce. This paper presents the execution process of one MapReduce job and discusses some important features of MapReduce.</div></li>
 <li class="paper"><a href="http://belkcollegeofbusiness.uncc.edu/JaredHansen/Teaching/Teaching%20Helps/DeanGhemawatACMJan2010.pdf">MapReduce: A Flexible Data Processing Tool. <i>(2010)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it makes a comparison between MapReduce framework and database systems in large data processing. The advantages of MapReduce and database systems are presented from several aspects. For very large scale data processing nowadays, MapReduce has obvious advantage over parallel database systems and is effective and efficient tool for large data analysis.</div></li>
 <li class="paper"><a href="https://www.cs.duke.edu/~hero/files/dataeng13-whatifengine.pdf">A What-if Engine for Cost-based MapReduce Optimization. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it introduces What-if Engine in details. It is the core of the optimization tool Starfish configuration optimization for MapReduce job. A performance model is the main part of What-If Engine to measure the job execution phases and related running cost. This cost model provides a detailed description of the time cost in each phase of map task and reduce task.</div></li>
 <li class="paper"><a href="http://arxiv.org/pdf/1302.2966.pdf">The Family of MapReduce and Large Scale Data Processing Systems. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, some approaches are presented to optimize MapReduce from different perspectives. These optimizations are based on the analysis of limitations in MapReduce programs. One important aspect is the support for SQL query in MapReduce. And it introduces some systems to support SQL queries in MapReduce. In addition, it analyses some systems having similar ideas to MapReduce.</div></li>
 <li class="paper"><a href="http://www.cs.duke.edu/~hero/files/vldb11-job-optimization.pdf">Profiling, what-if analysis, and cost-based optimization of MapReduce programs. <i>(2011)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it presents an optimization system that optimizes MapReduce from the configuration parameters tuning. Three important parts of this system are profiler, what-if engine and cost-based optimizer. Profiler describes some aspects of dataflow during the job execution at the task or phase level. What-If engine defines a concept of virtual profile based on a cost model for mapreduce job. And cost-based optimizer searches for optimal configuration for current MapReduce job based on the cost model.</div></li>
 <li class="paper"><a href="http://www.datascienceassn.org/sites/default/files/Minimal%20MapReduce%20Algorithms.pdf">Minimal MapReduce Algorithms. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, authors analyze the performance of TeraSort that is one benchmark of MapReduce, and researches why it can obtain such high performance. From this analysis results, the paper propose a minimal algorithm in MapReduce to take advantage the feature of parallel computing in MapReduce programs. Moreover, it also presents how to apply this minimal algorithm to face the challenges that hard to be figured out in database systems.</div></li>
 <li class="paper"><a href="http://islab.kaist.ac.kr/chungcw/InterConfPapers/km0805-ha-myung.pdf">An Efficient MapReduce Algorithm for Counting Triangles in a Very Large Graph. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it proposes how to calculate the number of triangles in very large graph in MapReduce. This method uses type classification for different kinds of triangles in the graph. And it can reach high efficiency through eliminating computing redundancy in the computation of duplicate edges output in the map. In this method, Triangle Type Partition (TTP) algorithm is presented to classify into three types and solves the duplication problem.</div></li>
 <li class="paper"><a href="http://www.chinacloud.cn/upload/2013-10/13100807567165.pdf">JackHare: a framework for SQL to NoSQL translation using MapReduce. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper presents JackHare, a programming framework for SQL to MapReduce translation large scale data analysis stored from HBase. In this framework, it includes SQL query compiler and uses JDBC driver to process unstructured data in HBase. In this paper, it introduces the query operations in JackHare and explains how to translate nested SQL queries and complicated SQL into MapReduce.</div></li>
 <li class="paper"><a href="http://conferences.sigcomm.org/sigcomm/2013/papers/hotplanet/p27.pdf">Efficient social network data query processing on MapReduce. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses how to translate SPARQL (query language in social network data analysis) to MapReduce. It analyzes the inefficiency in existing methods that they translate SPARQL queries into a series of SQL joins and then map the SQL join flow to MapReduce jobs. And it provides method to improve the efficiency, this method uses filter of multiple joins to replace SQL join and moves selection part into the part of join for the job.</div></li>
 <li class="paper"><a href="http://arxiv.org/ftp/arxiv/papers/1104/1104.3217.pdf">Automatic optimization for MapReduce programs. <i>(2011)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, an optimization system MANIMAL is designed to look for optimizing opportunities of MapReduce programs. MaNIMAL applies an optimization method without changing any codes. This system focus on three kinds of optimization: selections, projection and data compression. And it uses delta-compression and direct-compression to reduce data size. Analyzer, Optimizer and Execution fabric are the main parts of the system.</div></li>
 <li class="paper"><a href="http://arxiv.org/pdf/1303.3517.pdf">Iterative mapreduce for large scale machine learning. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, iterative MapRedue is presented to support machine learning in MapReduce. Three key operators of this model are: MapReduce, Sequential and Loop. Iterative mapreduce physical plan is explained in this paper. It analyzes optimization of this method from multiple aspects: data-local scheduling, loop-aware scheduling, caching and efficient data-serialization.</div></li>
 <li class="paper"><a href="http://crpit.com/confpapers/CRPITV152Hsueh.pdf">A Load-Balanced MapReduce Algorithm for Blocking-based Entity-resolution with Multiple Keys. <i>(2014)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses Entity Resolution problem in MapReduce. A new algorithm is designed to solve this problem in large scale entities. Combination-based Blocking and Load-based Matching are the two main components of this algorithm. Blocking part combines the key and distributes lists of entities with same key, and Matching part combines entity pairs and balances the workload.</div></li>
 <li class="paper"><a href="http://static.usenix.org/events/nsdi10/tech/full_papers/condie.pdf">MapReduce Online. <i>(2010)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper presents Hadoop Online based on Hadoop which is implemented for MapReduce. This system provides the support for pipelining among continuing tasks and sequential jobs. The support for pipelining within a job is implemented through modifying the mapreduce codes to enable mapper pushing data to reducers instead of pulling data by reducers. Moreover, single job online aggregation and multi jobs online aggregation are also supported by this system.</div></li>
 <li class="paper"><a href="http://arxiv.org/pdf/1203.5387.pdf">Finding connected components in map-reduce in logarithmic rounds. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses how to compute the connected parts in a graph. Algorithm Hash-to-MIin and Hash-Greater-to-Min are provided in the paper. The important feature of these algorithms is the hash function. This method can compute the connected components of the graph in O(logn) rounds and work efficiently for large-scale social network graph stored out of memory.</div></li>
 <li class="paper"><a href="http://arxiv.org/pdf/1207.0141.pdf">Efficient processing of k nearest neighbor joins using mapreduce. <i>(2012)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses how to process KNN (k nearest neighbor join) in MapReduce. This method applies two MapReduce jobs to finoish the tasks. The first mapreduce job contains only a map task, and a set of pivots are found based on the input to partition the input data. And the second mapreduce job uses mappers to find the subsets of the dataset based on the paritioning and reducers to perform the kNN.</div></li>
 <li class="paper"><a href="http://rio.ecs.umass.edu/mnilpub/papers/hpdc2013-yin.pdf">Efficient analytics on ordered datasets using MapReduce. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses the MapReduce solution to Relative Order-pReserving based Grouping (RE-ORG) that is usually applied for analyzing log files. A new method group-order-merge (GOM) is applied in order to improve the efficiency of RE-ORG. And its effect is evaluated by experiments provided in the paper.</div></li>
 <li class="paper"><a href="http://simplemonitoring.googlecode.com/svn-history/r235/trunk/document/paper/paper.pdf">Google’s MapReduce Programming Model — Revisited. <i>(2008)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, MapReduce and Sawzall programming models are explained. It analyzes MapReduce framework and presents MapReduce job execution and features. This analysis helps readers to better understand MapReduce programming model and to clear some misunderstanding.</div></li>
 <li class="paper"><a href="http://markus-h.github.io/stratosphere/assets/papers/optimizationOfDataFlowsWithUDFs_13.pdf">Peeking into the Optimization of Data Flow Programs with MapReduce-style UDFs. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, MapReduce is applied to complete the tasks in user defined function (UDF) and an optimization mechanism is provided. In this method, it analyzes MapReduce codes and generates the description of MapReduce programs by using Pact Programming Model and produces optimized execution plan through using the optimizer. It can be executed according to this plan to obtain optimization.</div></li>
 <li class="paper"><a href="http://cseweb.ucsd.edu/~avattani/papers/mrgreedy.pdf">Fast Greedy Algorithms in MapReduce and Streaming. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it discusses the method used to efficiently implement greedy algorithms in MapReduce programs. The main parts of this method are sampling and pruning, and they could decrease the input data size to shorten MapReduce job execution time. Experiments using real datasets are used to prove the effect of this new method.</div></li>
 <li class="paper"><a href="http://www.vldb.org/pvldb/vol6/p1230-mokbel.pdf">A Demonstration of SpatialHadoop: An Efficient MapReduce Framework for Spatial Data. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, MapReduce is applied to process spatial data. It presents a system SpatialHadoop for spatial data processing.  This system is implemented on Hadoop. Indexing is provided in SpatialHadoop to improve data exploring. In addition, this enhanced system can well support some spatial data operations such as kNN.</div></li>
 <li class="paper"><a href="https://ece.uwaterloo.ca/~aelgohar/Farahat_CSS_ICDM2013.pdf">Distributed Column Subset Selection on MapReduce. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it applies MapReduce program for solving Colum Subset Selection (CSS) problem. This method selects the columns that can reflect the important features of the matrix. In projection phase, it applies random projection to obtain features of the matrix. In selection phase, it uses greedy algorithm to select among several matrices. A centralized selection algorithm for greedy generated CSS is applied to perform columns selection in many different submatrices.</div></li>
 <li class="paper"><a href="http://www.vldb.org/pvldb/vol7/p241-onizuka.pdf">Optimization for iterative queries on MapReduce. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, OptIQ is designed to improve the performance of iteration queries implemented in MapReduce. It can reduce the computing redundancy of MapReduce programs during these iterations. Two important ideas of it are table decomposition with materialization and automatic incrementalization.</div></li>
 <li class="paper"><a href="http://pdf.aminer.org/000/225/039/a_practical_approach_to_static_node_positioning.pdf">SQL/MapReduce: A practical approach to self-describing, polymorphic, and parallelizable user-defined functions. <i>(2009)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it designs SQL/MapReduce (SQL/MR) to implement User-Defined Functions in MapReduce. SQL/MR has the similar syntax compared to SQL query. And user can add some custom argument clauses to extend basic queries. It can be used in parallel database systems for data analysis. The programming model of SQL/MR functions is general in MapReduce.</div></li>
 <li class="paper"><a href="http://www.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-11-7.pdf">Ysmart: Yet another sql-to-mapreduce translator. <i>(2011)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, a new system YSmart is presented to provide support for SQL query in MapReduce. This system can find the optimization chances among complex queries without changing MapReduce framework. It can detect three correlations: input correlation, transit correlation and job flow correlation in a query, and applies rules to produce optimized MapReduce jobs through Common MapReduce Framework (CMF).</div></li>
 <li class="paper"><a href="http://arxiv.org/pdf/1211.6176.pdf">Shark: SQL and rich analytics at scale. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper provides Shark to support SQL query through MapReduce execution. Two main components of Shark are Spark, the MapReduce computing engine for Shark and resilient distributed datasets (RDDs), the main abstraction of Spark. Spark supports computation of DAGs, and RDDs provides several benefits through this storage abstraction.</div></li>
 <li class="paper"><a href="http://vldb.org/pvldb/vol5/p2014_jensdittrich_vldb2012.pdf">Efficient Big Data Processing in Hadoop MapReduce. <i>(2012)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, some methods have been proposed for Hadoop MapReduce optimization. It mentions the configuration tuning approaches to shorten MapReduce job execution time and query techniques to optimize MapReduce. And the problem of data layout and indexes in Hadoop MapReduce is discussed in this paper.</div></li>
 <li class="paper"><a href="http://pasa-bigdata.nju.edu.cn/people/ronggu/pub/SHadoop_JPDC.pdf">SHadoop: Improving MapReduce performance by optimizing job execution mechanism in Hadoop clusters. <i>(2014)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, SHadoop is presented based on Hadoop. This system improves MapReduce by reducing job execution time for MapReduce jobs. SHadoop reduces the execution time of startup and cleanup and provides a more efficient method for event notification. It moves the job setup and cleanup task from TaskTracker to JobTracker and will avoid four heartbeats in the standard Hadoop.</div></li>
 <li class="paper"><a href="https://lambda.uta.edu/mrql.pdf">An optimization framework for map-reduce queries. <i>(2012)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper designs a Map-Reduce Query Language (MRQL) used for MapReduce computations. And it presents an optimization of this kind of queries into MapReduce jobs. This paper gives the detailed explanation about the MRQL queries to MapReduce programs translation and presents an optimization mechanism to provide a good plan of physical operators.</div></li>
 <li class="paper"><a href="http://www.ics.uci.edu/~ramang/RamanGrover/Home_files/predicate_based_sampling_grover_carey.pdf">Extending map-reduce for efficient predicate-based sampling. <i>(2012)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it applies MapReduce to generate data sample based on predicate. For this kind of sampling, it is implemented in MapReduce that treats is as SQL query. In this mechanism, Input Provider is designed on Hadoop to provide incremental data processing. And it can improve the performance of this sampling method.</div></li>
 <li class="paper"><a href="http://www.infosun.fim.uni-passau.de/cl/publications/docs/DAL13mapreduce.pdf">Modeling and Optimizing MapReduce Programs. <i>(2013)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This technical report analyzes the functional model in MapReduce framework. It applies Haskell (a functional language) to explain the functional model of MapReduce, and model the data flow for Mapper and Reducer tasks in MapReduce job. Moreover, it uses a cost model to calculate the time cost for MapReduce tasks and provides optimization rules based on it.</div></li>
 <li class="paper"><a href="http://ceur-ws.org/Vol-1133/paper-02.pdf">Binary Theta-Joins using MapReduce: Efficiency Analysis and Improvements. <i>(2014)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, join support in MapReduce is discussed. This paper explains how to improve 1-Bucket-Theta and M-Bucket algorithms that implemented in MapReduce programs. In this paper, it measures join matrix from three metrics: replication rate, maximum reducer input and input imbalance that is the ratio of maximum reducer input to the average reducer input. As a result, this method could obviously decrease the communication cost.</div></li>
 <li class="paper"><a href="http://cloud.pubs.dbs.uni-leipzig.de/sites/cloud.pubs.dbs.uni-leipzig.de/files/Jiang2010TheperformanceofmapreduceAnindepthstudy.pdf">The Performance of MapReduce: An In-depth Study. <i>(2010)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper discusses important factors that affect the performance of MapReduce job. In MapReduce programming model, there are some factors that provides chances to improve MapReduce performance: I/O mode, the way of fetching data from storage system; data parsing, the scheme how reader parse the format of the record; indexing, the methods to utilize indexes to speed up data processing; scheduling, the scheme to assign map and reduce tasks execution through scheduler.</div></li>
 <li class="paper"><a href="https://www.cs.duke.edu/~shivnath/papers/socc2010.pdf">Towards automatic optimization of MapReduce programs. <i>(2010)</i></a>
-<div class="comments"></div></li>
+<div class="comments">In this paper, it introduces a method to achieve the MapReduce optimization from the aspect of configuration tuning. Some possible optimization approaches are presented such as database query-optimizer-style approach and dynamic profiling. Besides, they apply the database query-optimizer-style approach to implement an optimization tool starfish for MapReduce configuration tuning.</div></li>
 <li class="paper"><a href="http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf">Parallel data processing with MapReduce: a survey. <i>(2012)</i></a> 
-<div class="comments"></div></li>
+<div class="comments">This is a survey of MapReduce processing, it compares with DBMS with Hadoop that is an implementation of MapReduce framework. It summarizes the advantages and disadvantages of MapReduce. It analyzes five advantages of MapReduce. Moreover it discusses some approaches that can improve MapReduce: high-level language support, indexing support, flexible dataflow processing and so on.</div></li>
 <li class="paper"><a href="https://cs.wmich.edu/gupta/teaching/cs5950/sumII10cloudComputing/graphAlgo%20in%20mapReduce%20paper%20p78-lin.pdf">Design patterns for efficient graph algorithms in MapReduce. <i>(2010)</i></a>
-<div class="comments"></div></li>
+<div class="comments">This paper presents some design patterns for very large graph processing through MapReduce programming. In this paper, three skills are explained for large graph processing to reach a high performance. In MapReduce programs for graph processing, key is the id of the vertex and value is the record of the vertex structure. In MapReduce processing, the graph is divided into blocks that are computed in mapper function, and partial results will be transferred to reducers, then the computation of the graph will be completed by reducers.</div></li>
 </ul>
 </div>
 <div id="footer"></div>
-
+ 
 </div>
 </body>
 </html>
