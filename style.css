@@ -13,20 +13,21 @@ img{
 	width:200px;
 	text-indent:20px;
     font-size:18px;
-    color:#f0f0f0;
+    color:#737373;
     font-family:verdana,sans-serif;
     line-height:40px;
-    background-color:#e6e6ff;
+    background-color:#ffffff;
 }
 #sign{
 	display:inline-block;
 	margin-left:600px;
 	width:120px;
 	font-size:16px;
-    color:#f0f0f0;
+    color:#737373;
     font-family:Arial,sans-serif;
     font-style:italic;
     line-height:40px;
+    background-color:#ffffff;
 }
 #content{
 	width:1000px;
