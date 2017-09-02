@@ -6,7 +6,7 @@ img{
 	border:0;
 }
 #header{
-	background-color:#444444;
+	background-color:#f8ecf8;
 }
 #course{
 	display:inline-block;
@@ -16,7 +16,6 @@ img{
     color:#737373;
     font-family:verdana,sans-serif;
     line-height:40px;
-    background-color:#ffffff;
 }
 #sign{
 	display:inline-block;
@@ -27,7 +26,6 @@ img{
     font-family:Arial,sans-serif;
     font-style:italic;
     line-height:40px;
-    background-color:#ffffff;
 }
 #content{
 	width:1000px;
