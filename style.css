@@ -11,12 +11,13 @@ img{
 }
 #course{
 	display:inline-block;
-	width:200px;
+	width:260px;
 	text-indent:20px;
-    font-size:18px;
+    font-size:26px;
+    font-weight:bold;
     color:#737373;
     font-family:verdana,sans-serif;
-    line-height:40px;
+    line-height:60px;
 }
 #sign{
 	display:inline-block;
@@ -26,7 +27,7 @@ img{
     color:#737373;
     font-family:Arial,sans-serif;
     font-style:italic;
-    line-height:40px;
+    line-height:60px;
 }
 #content{
 	width:1000px;
