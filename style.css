@@ -24,10 +24,18 @@ img{
 	margin-left:600px;
 	width:120px;
 	font-size:16px;
-    color:#737373;
+    color:#595959;
     font-family:Arial,sans-serif;
     font-style:italic;
     line-height:60px;
+}
+.year{
+    margin-left:10px;
+    font-weight:normal;
+    font-size:16px;
+    color:#595959;
+    font-family:Arial,sans-serif;
+    font-style:italic;
 }
 #content{
 	width:1000px;
@@ -72,6 +80,10 @@ img{
 	color:#000;
 	border-bottom:1px dotted #000079;
 }
+#clink{
+       text-decoration:none;
+       color:#737373;
+}
 #list li a:hover{
 	background:#acd6ff;
 }
@@ -98,13 +110,12 @@ img{
 	padding-right:30px;
 }
 #title{
-	margin:20px 0;
-	padding:20px 30px;
-    font-size:36px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
-    color:#fff;
+    color:#74a743;
     font-weight:bold;
-    background-color:#74a743;
 }
 h1{
 	text-indent:0px;
