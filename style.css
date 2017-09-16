@@ -87,6 +87,9 @@ img{
 #list li a:hover{
 	background:#acd6ff;
 }
+a#rank:hover{
+       background:#cce6ff;
+}
 #contact{
 	margin-top:20px;
 	padding:0 20px;
