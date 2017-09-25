@@ -84,7 +84,7 @@ img{
        text-decoration:none;
        color:#737373;
 }
-#list li a:hover{
+#list li a:hover, #github a:hover{
 	background:#acd6ff;
 }
 a#rank:hover{
@@ -106,6 +106,16 @@ a#rank:hover{
 	font-family:Arial, Helvetica, sans-serif;
 	color:#0000e3;
 	line-height:20px;
+}
+#github{
+	margin-top:20px;
+	padding:0 20px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#74a743;
+	font-weight:bold;
+	line-height:20px;
+
 }
 #rightcontent{
 	margin-left:275px;
