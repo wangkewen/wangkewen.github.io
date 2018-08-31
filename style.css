@@ -84,6 +84,10 @@ img{
        text-decoration:none;
        color:#737373;
 }
+.tlink{
+       text-decoration:none;
+       color:inherit;
+}
 #list li a:hover, #github a:hover{
 	background:#acd6ff;
 }
