@@ -35,6 +35,11 @@
 <div id="rightcontent">
 
 <h1>Research Projects</h1>
+<h2>Dynamic Resource Allocation for Apache Spark Applications<span class="year">Aug 2018 - May 2019</span></h2>
+<div class="location"> University of Connecticut</div>
+<div class="comments">Designed and implemented a middleware to dynamically allocate computing resources for Apache Spark applications to improve resource utilization.</div>
+<div class="comments">We design and implement a middleware service for dynamically allocating computing resources for Apache Spark applications on cloud platforms. It leverages the current and prior resource usage to predict future demand, and uses either an a priori calculated or dynamically threshold value to adjust the amount of allocated resources for the future time intervals. Our experiments using six different Apache Spark applications on both physical and virtual clusters demonstrate that our approaches can improve application performance while reducing resource requirements significantly in most cases compared to static resource allocation strategies.</div>
+
 <h2>Improving Performance of Apache Spark Jobs<span class="year">Feb 2017 - May 2018</span></h2>
 <div class="location"> University of Connecticut</div>
 <div class="comments">Implemented a Spark optimizer in Java to predict and mitigate potential task stragglers and skewed task distribution problems for Apache Spark platform to improve job performance by up to 71 %.</div>
@@ -49,19 +54,23 @@
 <div class="location">University of Connecticut</div>
 <div class="comments">Developed a Spark analytics system in Java to parse JSON logs of Apache Spark event, and predict time, I/O overhead, memory consumption using analytical and Machine Learning approaches.</div>
 <div class="comments">We present a simulation driven prediction model that can predict job performance with high accuracy for Apache Spark platform. Specifically, as Apache spark jobs consist of multiple sequential stages, the presented prediction model simulates the execution of the actual job by using only a fraction of the input data, and collect execution traces (execution time, memory consumption and I/O overhead) to predict job performance for each execution stage individually. We evaluated our prediction framework using four real-life applications (WordCount, Logistic Regression, K-Means clustering and PageRank) on a 13 node cluster, and experimental results show that the model can achieve high prediction accuracy, which is up to 98% for time prediction, 99% for memory prediction, and 97% for I/O prediction.</div>
+
 <h2>Configurations evolution analysis of cloud software<span class="year">Oct 2014 - Feb 2016</span></h2>
 <div class="location">University of Connecticut</div>
 <div class="comments">Constructed call graphs used to implement an automatic tool CSMiner for automatically analyzing configuration changes of cloud software such as Apache Cassandra, Apache Hadoop.</div>
 <div class="comments">We design an automated tool (CSMiner) leveraging static program analysis techniques that helps users to understand how and where a particular setting is used in a program and how settings have evolved across different versions of a software system. CSMiner was applied on four different open source software packages, namely, Apache Cassandra, ElasticSearch, Apache Hadoop, and Apache HBase, and CSMiner identified 109 (out of 109), 109 (out of 113), 811 (out of 847), and 160 (out of 167) settings for these software packages respectively. In each case, CSMiner successfully identified the changes in configuration settings across multiple versions with high accuracy.</div>
+
 <h2>Learning environment for Smart Grid security<span class="year">Aug 2013 - Feb 2014</span></h2>
 <div class="location">Georgia State University</div>
 <div class="comments">Implemented an online system using JSP, jQuery, MySQL, Bash to schedule Smart Grid emulator for courses design. Implemented course information display and scheduling calendar using JSP and jQuery, developed Java Servlets and Bash scripts to launch and control Smart Grid emulator, loaded user profile and course schedule information into MySQL database.</div>
 <div class="comments">We design and implement an integrated learning environment for the education of smart grid security. The core components of this environment are smart grid simulator and a learning website. Based on this learning environment, we design course projects and learning materials in teaching, so that students can better grasp the knowledge of smart grid security.</div>
+
 <h2>Optimizing Hadoop MapReduce<span class="year">Nov 2011 - Dec 2012</span></h2>
 <div class="location">Beihang University</div>
 <div class="comments">Applied BTrace to trace MapReduce job functions, and monitor resource consumption using Ganglia. Implemented a MapReduce optimizer in Java through constructing Hadoop performance model for execution time prediction and designing heuristic search algorithm to find near optimal configurations for MapReduce jobs.</div>
 <div class="comments">We implement an experience guided configuration optimizer- Predator, which does not treat the optimization problem as a pure black-box problem but utilizes useful experience learned from Hadoop MapReduce configuration practice to assist the optimizing process. The optimizer uses job execution time estimated by a practical MapReduce cost model as the objective function, and classifies Hadoop MapReduce parameters into different groups by their different tunable levels to shrink search space. Furthermore, the optimization algorithm of the optimizer uses the idea of subspace division to prevent local optimum problem, and it could also reduce the searching time by cutting down the cost in visiting unpromising points in search space. In the experiments on Hadoop clusters, it can improve the MapReduce execution by up to 88%.</div>
 </div>
+
 <div id="footer"></div>
 
 </div>
