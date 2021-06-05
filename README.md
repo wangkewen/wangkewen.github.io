@@ -1,3 +1,3 @@
-repo wangkewen.github.io
+wangkewen.github.io
 ===================
 
